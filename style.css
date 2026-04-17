@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: 'Tangerine';
+    src: url('./fonte/Tangerine-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1474511320723-9a56873867b5') center/cover no-repeat;
+    height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(4px);
+    z-index: -1;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+}
+
+.intro {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+      font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+.busca {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+.busca input {
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.1);
+    color: white;
+    outline: none;
+    width: 100px;
+    height: 10px;
+    font-size: 10px;
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+
+
+.busca input::placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+
+.busca button {
+    padding: 10px 16px;
+    border-radius: 30px;
+    height: 10px;
+    border: none;
+    background: linear-gradient(135deg, #ff914d, #ff6a00);
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Raleway", sans-serif;
+}
+
+.busca button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
