@@ -41,7 +41,7 @@ https://randomfox.ca/floof/
 ## 🔗 Acesse o Projeto
 
 - 💻 GitHub: [https://github.com/Isabelle-Moraes]
-- 🌐 GitHub Pages: [COLE AQUI O LINK]
+- 🌐 GitHub Pages: [https://isabelle-moraes.github.io/-Galeria-de-Raposas-Consumo-de-API-com-JavaScript/]
 
 ---
 
