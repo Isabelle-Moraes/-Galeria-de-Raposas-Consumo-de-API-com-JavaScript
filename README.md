@@ -71,7 +71,7 @@ Durante o desenvolvimento, foram aplicados conceitos como:
 
 Confira a publicação sobre este projeto:
 
-👉 [COLE AQUI O LINK DO POST]
+👉[https://www.linkedin.com/posts/isabelle-caroline-772060350_javascript-frontend-desenvolvimentoweb-share-7451056873413238784-p03Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFeSqkYB41XlR3jolgYOnA__bmFy_fQ6--A)]
 
 ---
 
